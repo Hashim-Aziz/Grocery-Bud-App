@@ -20,7 +20,7 @@ function App() {
     show: false,
     msg: "",
     type: "",
-  });
+  }); //generic alert function use to display alert
 
   const handleSubmit = (e) => {
     e.preventDefault();
